@@ -2,23 +2,23 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "text": "Hitchhiker's Guide to Drupal\n\n\nWelcome to the HitchHiker's Guide to Drupal!\n\n\nAbout this Guide\n\n\nThis guide aims to:\n\n\n\n\nHelp you learn how to build websites with Drupal.\n\n\nShow you the best-practice, \"Drupal Way\" of working on Drupal sites.\n\n\nSave you time learning things \"the hard way\" by providing tips and\n  gotchas.\n\n\nReference existing documentation wherever possible; there is no\n  point writing new documentation on a subject if perfectly good\n  material already exists.\n\n\nBe primarily useful to proficient software developers who need to\n  learn how to work with Drupal; in particular, developers who need to\n  work on an existing Drupal site they did not build themselves.\n\n\nBe an opinionated guide that recommends a particular path, but\n  acknowledges tradeoffs with alternative approaches.\n\n\n\n\nLicense\n\n\nThis work is licensed under a \nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\n.",
             "title": "Home"
         },
         {
-            "location": "/#welcome-to-mkdocs",
-            "text": "For full documentation visit  mkdocs.org .",
-            "title": "Welcome to MkDocs"
+            "location": "/#hitchhikers-guide-to-drupal",
+            "text": "Welcome to the HitchHiker's Guide to Drupal!",
+            "title": "Hitchhiker's Guide to Drupal"
         },
         {
-            "location": "/#commands",
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
-            "title": "Commands"
+            "location": "/#about-this-guide",
+            "text": "This guide aims to:   Help you learn how to build websites with Drupal.  Show you the best-practice, \"Drupal Way\" of working on Drupal sites.  Save you time learning things \"the hard way\" by providing tips and\n  gotchas.  Reference existing documentation wherever possible; there is no\n  point writing new documentation on a subject if perfectly good\n  material already exists.  Be primarily useful to proficient software developers who need to\n  learn how to work with Drupal; in particular, developers who need to\n  work on an existing Drupal site they did not build themselves.  Be an opinionated guide that recommends a particular path, but\n  acknowledges tradeoffs with alternative approaches.",
+            "title": "About this Guide"
         },
         {
-            "location": "/#project-layout",
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Project layout"
+            "location": "/#license",
+            "text": "This work is licensed under a  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License .",
+            "title": "License"
         }
     ]
 }
