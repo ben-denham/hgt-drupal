@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/",
-            "text": "Hitchhiker's Guide to Drupal\n\n\nWelcome to the HitchHiker's Guide to Drupal!\n\n\nAbout this Guide\n\n\nThis guide aims to:\n\n\n\n\nHelp you learn how to build websites with Drupal.\n\n\nShow you the best-practice, \"Drupal Way\" of working on Drupal sites.\n\n\nSave you time learning things \"the hard way\" by providing tips and\n  gotchas.\n\n\nReference existing documentation wherever possible; there is no\n  point writing new documentation on a subject if perfectly good\n  material already exists.\n\n\nBe primarily useful to proficient software developers who need to\n  learn how to work with Drupal; in particular, developers who need to\n  work on an existing Drupal site they did not build themselves.\n\n\nBe an opinionated guide that recommends a particular path, but\n  acknowledges tradeoffs with alternative approaches.\n\n\n\n\nLicense\n\n\nThis work is licensed under a \nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\n.",
+            "text": "The Hitchhiker's Guide to Drupal\n\n\nWelcome to The Hitchhiker's Guide to Drupal!\n\n\nAbout this Guide\n\n\nThis guide aims to:\n\n\n\n\nHelp you learn how to build websites with Drupal.\n\n\nShow you the best-practice, \"Drupal Way\" of working on Drupal sites.\n\n\nSave you time learning things \"the hard way\" by providing tips and\n  gotchas.\n\n\nReference existing documentation wherever possible; there is no\n  point writing new documentation on a subject if perfectly good\n  material already exists.\n\n\nBe primarily useful to proficient software developers who need to\n  learn how to work with Drupal; in particular, developers who need to\n  work on an existing Drupal site they did not build themselves.\n\n\nBe an opinionated guide that recommends a particular path, but\n  acknowledges tradeoffs with alternative approaches.\n\n\n\n\nHow to Read This Guide\n\n\nYou could just go through the guide from start to finish, or you can\nalso pick and choose the topics that you need to learn about. Each\nsection is self-contained and does not depend on knowledge from\nelsewhere in the guide (except where noted).\n\n\nContributing\n\n\nFor Readers\n\n\nIf you have any corrections, suggestions, or requests for topics to be\ncovered in the guide, please create an issue at:\nhttps://github.com/ben-denham/thgt-drupal/issues/new\n\n\nFor Writers\n\n\nWe're always looking for new sections and improvements to be made to\nthe guide. Please see the \ncontributing guide\n for\nmore details.\n\n\nLicense\n\n\nThis work is licensed under a \nCreative Commons Attribution-NonCommercial-ShareAlike 4.0 International License\n.",
             "title": "Home"
         },
         {
-            "location": "/#hitchhikers-guide-to-drupal",
-            "text": "Welcome to the HitchHiker's Guide to Drupal!",
-            "title": "Hitchhiker's Guide to Drupal"
+            "location": "/#the-hitchhikers-guide-to-drupal",
+            "text": "Welcome to The Hitchhiker's Guide to Drupal!",
+            "title": "The Hitchhiker's Guide to Drupal"
         },
         {
             "location": "/#about-this-guide",
@@ -16,9 +16,44 @@
             "title": "About this Guide"
         },
         {
+            "location": "/#how-to-read-this-guide",
+            "text": "You could just go through the guide from start to finish, or you can\nalso pick and choose the topics that you need to learn about. Each\nsection is self-contained and does not depend on knowledge from\nelsewhere in the guide (except where noted).",
+            "title": "How to Read This Guide"
+        },
+        {
+            "location": "/#contributing",
+            "text": "For Readers  If you have any corrections, suggestions, or requests for topics to be\ncovered in the guide, please create an issue at:\nhttps://github.com/ben-denham/thgt-drupal/issues/new  For Writers  We're always looking for new sections and improvements to be made to\nthe guide. Please see the  contributing guide  for\nmore details.",
+            "title": "Contributing"
+        },
+        {
             "location": "/#license",
             "text": "This work is licensed under a  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License .",
             "title": "License"
+        },
+        {
+            "location": "/contributing/",
+            "text": "Contributing\n\n\nIf you're reading this contributing guide, thanks for taking the time\nto help out!\n\n\nThis document will cover a few basic things to help you get started\nwriting awesome documentation!\n\n\nSetting Up a Development Environment\n\n\nIn order to make it easier to submit a pull-request with your\ncontribution later on, you should start by creating a fork of this\nrepository on GitHub by creating a\n\nGitHub account\n (if you don't already have\none) and clicking the \"Fork\" button in the top-right corner of the\n\nproject's GitHub page\n.\n\n\nOnce you have created your fork, follow the instructions for cloning\nyour forked repository onto your local machine.\n\n\nThe webpages for the guide are generated with the\n\nMkDocs\n tool based on the content of the\n\nMarkdown\n files in the\n\ndocs/\n directory.\n\n\nOnce you have MkDocs installed, you can start an automatic\nbuild/watch/serve process by running the following command from the\nroot directoy of the project:\n\n\nmkdocs serve\n\n\n\n\nYou can then open up a local copy of the webpages at\nhttp://localhost:8000, and any changes you make to the Markdown files\nwill be reflected when you refresh the webpages.\n\n\nProject Structure\n\n\nEach Markdown file in the \ndocs/\n directory should cover a single\ntopic, and should be completely self-contained and not dependent on\nany other part of the guide (except where noted; see below).\n\n\nEach topic should have the following sections:\n\n\n\n\nTitle\n\n\nWhat's the Big Idea?\n\n\nThis should briefly explain \nwhat\n the section is about, and\n     \nwhy\n the reader would want to learn about this topic.\n\n\nThis Section Assumes (optional)\n\n\nThis is where you can state any topics the reader should already\n     know about before reading the section. In most cases, the other\n     topics should be covered previously in the guide.\n\n\nAny subsections relevant to explaining your topic (optional)\n\n\nThis is optional, as the \"Learning Resources\" section may link to\n     guides that already sufficiently cover the topic.\n\n\nLearning Resources\n\n\nAny (freely available) external resources where the reader can\n     learn about the topic.\n\n\nTips and Gotchas\n\n\nAny quick tips that will save the reader time, or gotchas that\n     will prevent them from making the same mistakes that you've\n     made. Think of what you wished you'd known sooner while learning\n     about this topic.\n\n\n\n\nHere is a template you can use for starting new sections:\n\n\n# My Section Title\n\n## What's the Big Idea?\n\n@TODO\n\n## This Section Assumes\n\n1.\n\n## Subsection\n\n## Learning Resources\n\n## Tips and Gotchas\n\n1. Tip\n2. Gotcha\n\n\n\n\n\nSubmitting Your Contributions\n\n\nWhen you're ready to submit your work, please make a pull request from\nyour fork to the\n\nmain repository\n.\n\n\nSee GitHub's guide on making pull requests:\nhttps://help.github.com/articles/creating-a-pull-request.\n\n\nPlease be patient, as the maintainers of the repository will need to\nreview your contribution before it is accepted, and make ask you to\nmake amendments, or my decline your submission if they feel it does\nnot contribute to achieving the \ngoals\n of\nthe guide.",
+            "title": "Contributing"
+        },
+        {
+            "location": "/contributing/#contributing",
+            "text": "If you're reading this contributing guide, thanks for taking the time\nto help out!  This document will cover a few basic things to help you get started\nwriting awesome documentation!",
+            "title": "Contributing"
+        },
+        {
+            "location": "/contributing/#setting-up-a-development-environment",
+            "text": "In order to make it easier to submit a pull-request with your\ncontribution later on, you should start by creating a fork of this\nrepository on GitHub by creating a GitHub account  (if you don't already have\none) and clicking the \"Fork\" button in the top-right corner of the project's GitHub page .  Once you have created your fork, follow the instructions for cloning\nyour forked repository onto your local machine.  The webpages for the guide are generated with the MkDocs  tool based on the content of the Markdown  files in the docs/  directory.  Once you have MkDocs installed, you can start an automatic\nbuild/watch/serve process by running the following command from the\nroot directoy of the project:  mkdocs serve  You can then open up a local copy of the webpages at\nhttp://localhost:8000, and any changes you make to the Markdown files\nwill be reflected when you refresh the webpages.",
+            "title": "Setting Up a Development Environment"
+        },
+        {
+            "location": "/contributing/#project-structure",
+            "text": "Each Markdown file in the  docs/  directory should cover a single\ntopic, and should be completely self-contained and not dependent on\nany other part of the guide (except where noted; see below).  Each topic should have the following sections:   Title  What's the Big Idea?  This should briefly explain  what  the section is about, and\n      why  the reader would want to learn about this topic.  This Section Assumes (optional)  This is where you can state any topics the reader should already\n     know about before reading the section. In most cases, the other\n     topics should be covered previously in the guide.  Any subsections relevant to explaining your topic (optional)  This is optional, as the \"Learning Resources\" section may link to\n     guides that already sufficiently cover the topic.  Learning Resources  Any (freely available) external resources where the reader can\n     learn about the topic.  Tips and Gotchas  Any quick tips that will save the reader time, or gotchas that\n     will prevent them from making the same mistakes that you've\n     made. Think of what you wished you'd known sooner while learning\n     about this topic.   Here is a template you can use for starting new sections:  # My Section Title\n\n## What's the Big Idea?\n\n@TODO\n\n## This Section Assumes\n\n1.\n\n## Subsection\n\n## Learning Resources\n\n## Tips and Gotchas\n\n1. Tip\n2. Gotcha",
+            "title": "Project Structure"
+        },
+        {
+            "location": "/contributing/#submitting-your-contributions",
+            "text": "When you're ready to submit your work, please make a pull request from\nyour fork to the main repository .  See GitHub's guide on making pull requests:\nhttps://help.github.com/articles/creating-a-pull-request.  Please be patient, as the maintainers of the repository will need to\nreview your contribution before it is accepted, and make ask you to\nmake amendments, or my decline your submission if they feel it does\nnot contribute to achieving the  goals  of\nthe guide.",
+            "title": "Submitting Your Contributions"
         }
     ]
 }
