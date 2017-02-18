@@ -1,6 +1,6 @@
-# Hitchhiker's Guide to Drupal
+# The Hitchhiker's Guide to Drupal
 
-Welcome to the HitchHiker's Guide to Drupal!
+Welcome to The Hitchhiker's Guide to Drupal!
 
 ## About this Guide
 
@@ -18,6 +18,27 @@ This guide aims to:
   work on an existing Drupal site they did not build themselves.
 * Be an opinionated guide that recommends a particular path, but
   acknowledges tradeoffs with alternative approaches.
+
+## How to Read This Guide
+
+You could just go through the guide from start to finish, or you can
+also pick and choose the topics that you need to learn about. Each
+section is self-contained and does not depend on knowledge from
+elsewhere in the guide (except where noted).
+
+## Contributing
+
+### For Readers
+
+If you have any corrections, suggestions, or requests for topics to be
+covered in the guide, please create an issue at:
+https://github.com/ben-denham/thgt-drupal/issues/new
+
+### For Writers
+
+We're always looking for new sections and improvements to be made to
+the guide. Please see the [contributing guide](contributing.md) for
+more details.
 
 ## License
 
