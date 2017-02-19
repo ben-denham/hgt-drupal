@@ -57,6 +57,9 @@ Each topic should have the following sections:
 5. Learning Resources
    * Any (freely available) external resources where the reader can
      learn about the topic.
+   * For each resource, a description should be given that explains
+     **what** the resource explains/teaches, and **why** the reader
+     will benefit from that resource.
 6. Tips and Gotchas
    * Any quick tips that will save the reader time, or gotchas that
      will prevent them from making the same mistakes that you've
@@ -79,6 +82,9 @@ Here is a template you can use for starting new sections:
 ## Subsection
 
 ## Learning Resources
+
+1. http://example.com
+   * This resource teaches...
 
 ## Tips and Gotchas
 

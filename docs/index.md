@@ -10,6 +10,8 @@ This guide aims to:
 * Show you the best-practice, "Drupal Way" of working on Drupal sites.
 * Save you time learning things "the hard way" by providing tips and
   gotchas.
+* Be practical and applicable; teaching you how to accomplish common
+  tasks rather than just explaining how something works.
 * Reference existing documentation wherever possible; there is no
   point writing new documentation on a subject if perfectly good
   material already exists.
@@ -25,6 +27,13 @@ You could just go through the guide from start to finish, or you can
 also pick and choose the topics that you need to learn about. Each
 section is self-contained and does not depend on knowledge from
 elsewhere in the guide (except where noted).
+
+## What Versions of Drupal Does This Guide Cover?
+
+For the time being, this guide will focus on Drupal 7. However, as
+soon as anyone wishes to write content for Drupal 8, a decision will
+be made as to how to cover both in the guide (be it a separate branch,
+a separate guide, or a single guide to cover both versions).
 
 ## Contributing
 
