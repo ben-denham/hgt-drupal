@@ -1,2 +1,6 @@
 site_name: Hitchhiker's Guide to Drupal
 theme: readthedocs
+repo_url: https://github.com/ben-denham/thgt-drupal
+edit_uri: edit/master/docs/
+remote_branch: gh-pages
+remote_name: origin
