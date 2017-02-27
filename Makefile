@@ -13,5 +13,6 @@ publish:
 		git fetch; \
 		git checkout gh-pages; \
 		git reset origin/gh-pages; \
-		git commit -am "Publish site"; \
+		git add --all; \
+		git commit -m "Publish site"; \
 		git push origin gh-pages
